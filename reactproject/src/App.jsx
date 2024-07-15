@@ -23,12 +23,12 @@ export default function App() {
   return (
     <div>
       <h1 className="producttext">Products</h1>
-    <div className='productPage'>
-      {
-        product.map(item => <Card data={item} key={item.id}/>)
-      }
-      
-    </div>
+      <div className='productPage'>
+        {
+          product.map(item => <Card data={item} key={item.id}/>)
+        }
+        
+      </div>
     </div>
   )
 }
